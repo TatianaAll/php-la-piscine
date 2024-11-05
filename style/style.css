@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1 {
+    color: pink;
+    margin-bottom: 1rem;
+}
+body{
+    background-color: mediumpurple;
+}
+p, h1, h2{
+    font-family: arial, sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+nav{
+    background-color:lightgreen;
+    height: 25vh;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+li{
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    margin-right: 2rem;
+}
+.imgContainer{
+    width: 20%;
+}
+.img{
+    width: 100%;
+}
+article{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:2rem
+}
+label{
+    font-family: arial, sans-serif;
+    color: pink;
+    padding-bottom:0.5rem;
+    padding-top:1rem;
+}
+
+input#message{
+    height: 100px;
+    width: 50%;
+}

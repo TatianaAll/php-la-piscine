@@ -4,7 +4,7 @@ require_once('../../services/authentification-service.php');
 //je vérifie que la personne est bien connecté pour avoir accès à cette page
 redirectNotLoggedUser();
 
-require_once('../../services/articles-services.php');
+require_once('../../model/articles-repository.php');
 
 $isArticleCreated = false;
 $isPostSubmitted = false;

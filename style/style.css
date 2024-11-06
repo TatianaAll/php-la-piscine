@@ -17,7 +17,7 @@ p, h1, h2{
 }
 nav{
     background-color:lightgreen;
-    height: 25vh;
+    height: 15vh;
 }
 ul{
     display: flex;

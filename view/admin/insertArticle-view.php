@@ -31,7 +31,7 @@
 
             <?php } else { ?>
 
-                <p>Nope</p>
+                <p>Vous n'avez pas remplit toutes les conditions de soumission pour votre article</p>
 
             <?php } ?>
         <?php } ?>

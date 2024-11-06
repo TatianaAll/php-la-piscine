@@ -5,5 +5,40 @@
         "image": "de l'herbe",
         "category": "ecologie",
         "id": 0
+    },
+    {
+        "title": "Encore un artcle, il fait beau",
+        "content": "beauuuuuuuuuu",
+        "image": "soleil",
+        "category": "meteorologie",
+        "id": 2
+    },
+    {
+        "title": "Il se passe qq chose ",
+        "content": "\u00e0 monopolis",
+        "image": "Cette ville o\u00f9 il ne se passe jamais rien",
+        "category": "fetes",
+        "id": 3
+    },
+    {
+        "title": "une cat\u00e9",
+        "content": "123456789",
+        "image": "image",
+        "category": "ecologie",
+        "id": 4
+    },
+    {
+        "title": "Derni\u00e8re news !",
+        "content": "Attention \u00e0 vous, pluie pr\u00e9vue ce soir",
+        "image": "nuage.jpg",
+        "category": "meteorologie",
+        "id": 5
+    },
+    {
+        "title": "Un nouvel article",
+        "content": "Pluie attendue",
+        "image": "nuage.jpg",
+        "category": "meteorologie",
+        "id": 6
     }
 ]

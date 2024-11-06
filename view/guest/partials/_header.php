@@ -37,6 +37,11 @@ $isLogged = false;
                 </a>
             </li>
             <li>
+                <a href = http://localhost/exercice1-les-bases/controller/exosSup/articlesNewSubmitted-controller.php>
+                    News !!
+                </a>
+            </li>
+            <li>
                 <a href="http://localhost/exercice1-les-bases/controller/guest/contact-controller.php">
                     Contact
                 </a>

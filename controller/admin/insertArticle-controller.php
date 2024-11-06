@@ -7,11 +7,10 @@ redirectNotLoggedUser();
 $isArticleCreated = false;
 $isPostSubmitted = false;
 
-
 function addArticle($article, $path)
 {
     if (file_exists($path)) {
-//        je décode ce qu'il y a précédemment dans mon json
+//       je décode ce qu'il y a précédemment dans mon json
         $jsonString = file_get_contents($path);
 //        je dit que ce que j'ai récupéré depuis mon json est mes articles au pluriel
         $articles = json_decode($jsonString, true);

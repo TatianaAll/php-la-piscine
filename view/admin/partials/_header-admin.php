@@ -26,6 +26,11 @@
                 </a>
             </li>
             <li>
+                <a href = http://localhost/exercice1-les-bases/controller/exosSup/articlesNewSubmitted-controller.php>
+                    News !!
+                </a>
+            </li>
+            <li>
                 <a href="http://localhost/exercice1-les-bases/controller/guest/connection-controller.php">
                     Connexion
                 </a>

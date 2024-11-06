@@ -1,15 +1,18 @@
-<?php require_once "../view/partials/_header.php" ?>
+<?php require_once('../../view/guest/partials/_header.php'); ?>
 
 <section>
-    <h2>
-        <?php echo $jsonArticle['title']; ?>
-    </h2>
-    <p>
-        <?php echo $jsonArticle['content']; ?>
-    </p>
-    <p>
-        <?php echo $jsonArticle['image']; ?>
-    </p>
+    <?php foreach ($jsonArticles as $article) { ?>
+        <h2>
+            <?php echo $article['title']; ?>
+        </h2>
+        <p>
+            <?php echo $article['content']; ?>
+        </p>
+        <p>
+            <?php echo $article['image']; ?>
+        </p>
+        <hr/>
+    <?php } ?>
 </section>
 
-<?php require_once "../view/_footer.php" ?>
+<?php require_once('../../view/guest/partials/_footer.php'); ?>

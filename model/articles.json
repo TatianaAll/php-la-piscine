@@ -1,20 +1,9 @@
 [
     {
-        "title": "HAAAAAAAAAAAAAAAA",
-        "content": "JPPPPPPPPPPPPP",
-        "image": "encore une",
-        "id": 1
-    },
-    {
-        "title": "new 18",
-        "content": "je comprend plus rien",
-        "image": "encore une",
-        "id": 2
-    },
-    {
-        "title": "Un Deux Trois",
-        "content": "Uno dos tres",
-        "image": "image",
-        "id": 3
+        "title": "un nouvel article avec cat\u00e9gorie",
+        "content": "Je m'appelle Tatiana",
+        "image": "de l'herbe",
+        "category": "ecologie",
+        "id": 0
     }
 ]

@@ -15,6 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($_POST['title'] &&
         $_POST['content'] &&
         $_POST['image'] &&
+        $_POST['categories'] &&
         mb_strlen($_POST['title']) > 3 &&
         mb_strlen($_POST['content']) > 4 &&
         mb_strlen($_POST['image']) > 2
@@ -25,6 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             "title" => $_POST['title'],
             "content" => $_POST['content'],
             "image" => $_POST['image'],
+            "category" => $_POST['categories'],
         ];
 
         // je récupère le chemin du fichier json qui servira à stocker les données

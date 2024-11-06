@@ -6,6 +6,9 @@
             <?php echo $article['title']; ?>
         </h2>
         <p>
+            <?php echo $article['category'] ?>
+        </p>
+        <p>
             <?php echo $article['content']; ?>
         </p>
         <p>

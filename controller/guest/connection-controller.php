@@ -1,4 +1,5 @@
 <?php
+require_once('../../config/config.php');
 
 //je déclare 2 variables qui me permettent de suivre si le form a été envoyé et si l'authentification à eu lieu
 $isAuthenticated = false;

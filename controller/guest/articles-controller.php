@@ -1,4 +1,7 @@
 <?php
+require_once('../../config/config.php');
+
+
 $articles = [
     'article 1' => [
         'title' => "article 1",

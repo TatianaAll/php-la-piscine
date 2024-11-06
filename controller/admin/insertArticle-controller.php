@@ -1,5 +1,5 @@
 <?php
-
+require_once('../../config/config.php');
 require_once('../../services/authentification-service.php');
 //je vérifie que la personne est bien connecté pour avoir accès à cette page
 redirectNotLoggedUser();

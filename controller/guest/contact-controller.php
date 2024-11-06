@@ -1,4 +1,7 @@
 <?php
+
+require_once('../../config/config.php');
+
 $isFormValid = false;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $isMessageSubmitted = false;

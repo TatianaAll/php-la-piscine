@@ -1,5 +1,8 @@
-{
-    "title": "aaaaa",
-    "content": "aaaaaaaaa",
-    "image": "aaaaaaaaaaaa"
-}
+[
+    {
+        "title": "Voici un article",
+        "content": "Un nouvel article pour une nouvelle vie",
+        "image": "Une joulie image",
+        "id": 1
+    }
+]
